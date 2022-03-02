@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.11/tailwind.min.css"
+      integrity="sha512-KO1h5ynYuqsFuEicc7DmOQc+S9m2xiCKYlC3zcZCSEw0RGDsxcMnppRaMZnb0DdzTDPaW22ID/gAGCZ9i+RT/w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Manage Student</title>
+  </head>
+  <body>
+    <div class="formbody">
+      <div class="background" id="background"></div>
+      <div class="bg-white rounded p-10 text-center shadow-md">
+        <h1 class="text-3xl">Manage Student</h1>
+        <p class="text-sm text-gray-700"></p>
+        <div class="my-4 text-left">
+          <label for="Student_id" class="text-gray-900">Student ID:</label>
+          <input
+            type="text"
+            class="border block w-full p-2 mt-2 rounded"
+            id="Student_id"
+            placeholder="Enter Studend ID"
+          />
+        </div>
+
+        <div class="my-4 text-left">
+          <label for="first_name" class="text-gray-900">First Name:</label>
+          <input
+            type="text"
+            class="border block w-full p-2 mt-2 rounded"
+            id="first_name"
+            placeholder="Enter First Name"
+          />
+        </div>
+
+        <div class="my-4 text-left">
+          <label for="last_name" class="text-gray-900">Last Name:</label>
+          <input
+            type="text"
+            class="border block w-full p-2 mt-2 rounded"
+            id="last_name"
+            placeholder="Enter Last Name"
+          />
+        </div>
+
+        <div class="my-4 text-left">
+          <label for="email" class="text-gray-900">Email:</label>
+          <input
+            type="text"
+            class="border block w-full p-2 mt-2 rounded"
+            id="email"
+            placeholder="Enter Email"
+          />
+        </div>
+
+        <button
+          class="bg-black text-white py-2 mt-4 inline-block w-full rounded"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
